@@ -22,7 +22,7 @@ Zadania z selektorów są przygotowane w serwisie [jsfiddle](https://jsfiddle.ne
 * Pierwszy element z listy o id navigation miał zaokrąglone krawędzie po lewej stronie a ostatni element po prawej stronie,
 * Każdy nieparzysty paragraf divu o id zebra ma mieć szary kolor tła,
 * Pierwszy div znajdujący się w divie o id other ma być zielony a ostatni ma być niebieski,
-* Każdy 3,5,7,… element div od końca należący do diva o klasie from_end ma mieć kolor tła nastawiony na pomarańczowy.
+* Każdy 3,5,7,… element div od końca należący do diva o id from_end ma mieć kolor tła nastawiony na pomarańczowy.
 
 ##*. Zadanie dodatkowe.
 Jeżeli nadal masz czas poćwicz selektory korzystając z tej strony [flukeout.github.io](http://flukeout.github.io/ ) - lekcje od 14 do końca.
