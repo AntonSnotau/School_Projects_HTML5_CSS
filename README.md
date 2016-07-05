@@ -12,20 +12,12 @@
 
 6. Box model w CSS
 
-7. Stylowanie list
+7. Zaawansowany box model
 
-8. Zaawansowany box model
+8. Border i box-shadow
 
-9. Zaawansowany atrybut border część 1
+9. Pozycjonowanie elementów
 
-10. Tablice część 1
+10. Zaawansowane selektory
 
-11. Pozycjonowanie elementów
-
-12. Zaawansowane selektory
-
-13. Tablice część 2
-
-14. Zaawansowany atrybut border część 2
-
-15. Podsumowanie
+11. Podsumowanie
