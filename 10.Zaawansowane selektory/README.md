@@ -28,7 +28,8 @@ Zadania z selektorów są przygotowane w serwisie [jsfiddle](https://jsfiddle.ne
 ##4. Komentarz na stronie.
 W pliku html stwórz div z jakimś przykładowym tekstem i obrazkiem (z avatarem). Ostyluj divy tak, by wyglądały w następujący sposób:
 
-	![Avatar](images/avatar.jpg)
+![avatar](images/avatar.jpg)
+
 
 ##5. Zebra.
 W pliku html stwórz tablicę o 3 kolumnach i 6ciu wierszach (+ jednym wierszu z nagłówkami tablicy).
