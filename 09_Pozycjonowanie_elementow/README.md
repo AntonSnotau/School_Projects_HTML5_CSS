@@ -13,7 +13,7 @@ Elementy **div** z poprzedniego zadania ustaw obok siebie za pomocą **float**. 
 ![pozycjonowanie1](images/pos1.jpg)
 
 ## Zadanie 4
-Menu z zadania trzeciego o listach ustaw w taki sam sposób za pomocą **float**.
+Stwórz listę ```ul``` z pięcioma elementami (np. jakieś menu). Ustaw jego elementy obok siebie za pomocą **float**.
 
 ## Zadanie 5
 Ustaw obrazek w taki sposób jak pokazano niżej. Obrazek znajdziesz w katalogu **images**. Nazwa pliku ```jez.jpg```.
