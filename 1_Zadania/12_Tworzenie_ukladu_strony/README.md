@@ -1,6 +1,6 @@
 # Tworzenie układu strony
 
-## Zadanie 1
+#### Zadanie 1
 Utwórz stronę jak na obrazku:
 
 ![Układ_strony](images/layout.png)

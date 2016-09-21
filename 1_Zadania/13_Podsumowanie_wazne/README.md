@@ -1,6 +1,6 @@
 # CSS &ndash; podsumowanie obowiązkowe
 
-## Zadanie 1. Stwórz następujący układ:
+#### Zadanie 1. Stwórz następujący układ:
 
 ![Strona](images/page.jpg)
 

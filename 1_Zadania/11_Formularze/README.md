@@ -1,6 +1,6 @@
 # CSS &ndash; stylowanie formularzy
 
-## Zadanie 1
+#### Zadanie 1
 Utwórz formularz, w którym znajdą się następujące pola:
 * imię użytkownika,
 * nazwisko,
@@ -10,7 +10,7 @@ Utwórz formularz, w którym znajdą się następujące pola:
 * informacja o sobie,
 * przycisk "wyślij".
 
-## Zadanie 2
+###### Zadanie 2
 Każdemu polu nadaj odpowiedni typ:
 * "imię" i "nazwisko" &ndash; text,
 * "email" &ndash; pole typu email,
@@ -18,6 +18,6 @@ Każdemu polu nadaj odpowiedni typ:
 * "informacja..." &ndash; textarea,
 * "wyślij" &ndash; submit.
 
-## Zadanie 3
+#### Zadanie 3
 Tam gdzie to możliwe, wstaw **placeholder** informujący, co wpisać w dane pole.
 Sprawdź w internecie gdzie można dodawać placeholder.
