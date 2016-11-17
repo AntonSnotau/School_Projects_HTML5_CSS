@@ -1,4 +1,4 @@
-# Kolory i jednostki
+# CSS &ndash; Kolory i jednostki
 
 > Zadania rozwiązuj w plikach ```index.html``` oraz ```css/style.css```
 
