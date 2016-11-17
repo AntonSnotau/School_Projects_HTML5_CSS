@@ -4,7 +4,7 @@
 
 ## Zadania rozwiązywane z wykładowcą
 
-### Dodawanie rodziny czcionek do projektu (~8min - 10min)
+### Dodawanie rodziny czcionek do projektu (~ 8min - 10min)
 Dodaj dowolny tekst do pliku **index.html** i ustaw dla niego font wygenerowany ze strony  [transfonter.org](http://transfonter.org/).
 
 Zrób następujące kroki:
@@ -26,14 +26,14 @@ Zrób następujące kroki:
 
 -------------------------------------------------------------------------------
 
-### Zadanie 1. Generowanie dodatkowych czcionek (~4min - 6min)
+### Zadanie 1. Generowanie dodatkowych czcionek (~ 4min - 6min)
 Spróbuj dodać jeszcze jeden rodzaj czcionki. Wygeneruj odpowiednie rozszerzenia zgodnie z krokami w zadaniu pierwszym. Wybierz dowolną czcionkę.
 
 
-### Zadanie 2. Używanie Google Fonts (~3min - 5min)
+### Zadanie 2. Używanie Google Fonts (~ 3min - 5min)
  Wejdź na stronę [google.com/fonts](https://www.google.com/fonts), wybierz dowolny font i załącz go bezpośrednio do swojego projektu.
 
-### Zadanie 3. Używanie Font Squirrel (~8min - 10min)
+### Zadanie 3. Używanie Font Squirrel (~ 8min - 10min)
 
 Dodaj dowolny tekst do pliku index.html i ustaw dla niego font wygenerowany ze [fontsquirrel.com](http://www.fontsquirrel.com/).
 

@@ -4,7 +4,7 @@
 
 ## Zadania rozwiązywane z wykładowcą
 
-###  Proste selektory (~12min - 15min)  
+###  Proste selektory (~ 12min - 15min)  
 Otwórz link przygotowany w serwisie  [JSFiddle](http://jsfiddle.net/CodersLab/qtba6fkg).
 
 Ustaw kolor tła (użyj atrybutu **background-color**) dla następujących elementów:
@@ -22,7 +22,7 @@ Ustaw kolor tła (użyj atrybutu **background-color**) dla następujących eleme
 
 ## Zadania do samodzielnego wykonania
 
-### Zadanie 1. Łączenie selektorów (~6min - 8min)
+### Zadanie 1. Łączenie selektorów (~ 6min - 8min)
 Otwórz link przygotowany w serwisie  [JSFiddle](http://jsfiddle.net/CodersLab/7pr6qk93/).
 
 Ustaw kolor tła (użyj atrybutu **background-color**) następujących elementów:
@@ -32,7 +32,7 @@ Ustaw kolor tła (użyj atrybutu **background-color**) następujących elementó
 * wszystkie **divy** o klasie ```important``` na kolor zielony (uważaj, żeby nie zmienić koloru tła **paragrafom** o tej samej **klasie**),
 * wszystkie elementy, które znajdują się w wszystkich **divach** o **klasie** ```white``` na kolor niebieski.
 
-### Zadanie 2. Wybieranie po atrybutach (~8min - 10min)
+### Zadanie 2. Wybieranie po atrybutach (~ 8min - 10min)
 Otwórz link przygotowany w serwisie  [JSFiddle](http://JSFiddle.net/CodersLab/41Lk25nh/).
 
 Ustaw kolor tła (użyj atrybutu **background-color**) następujących elementów:
