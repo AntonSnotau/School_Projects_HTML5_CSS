@@ -22,7 +22,7 @@ Ustaw kolor tła (użyj atrybutu **background-color**) dla następujących eleme
 
 ## Zadania do samodzielnego wykonania
 
-### Zadanie 1. Łączenie selektorów (~8min - 10min)
+### Zadanie 1. Łączenie selektorów (~6min - 8min)
 Otwórz link przygotowany w serwisie  [JSFiddle](http://jsfiddle.net/CodersLab/7pr6qk93/).
 
 Ustaw kolor tła (użyj atrybutu **background-color**) następujących elementów:
