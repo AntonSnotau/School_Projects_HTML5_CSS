@@ -1,6 +1,10 @@
-# Tworzenie układu strony
+# CSS &ndash; Tworzenie układu strony
 
-#### Zadanie 1
+> Zadania rozwiązuj w plikach ```index.html``` oraz ```css/style.css```
+
+## Zadania rozwiązywane z wykładowcą
+
+### Prosty układ strony (~ 10min - 12min)
 Utwórz stronę jak na obrazku:
 
 ![Układ_strony](images/layout.png)

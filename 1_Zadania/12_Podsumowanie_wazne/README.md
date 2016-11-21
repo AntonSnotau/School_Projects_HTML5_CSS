@@ -1,6 +1,10 @@
-# CSS &ndash; podsumowanie obowiązkowe
+# CSS &ndash; Podsumowanie obowiązkowe
 
-#### Zadanie 1. Stwórz następujący układ:
+> Zadania rozwiązuj w plikach ```index.html``` oraz ```css/style.css```
+
+## Zadania rozwiązywane z wykładowcą
+
+### Prawdziwa strona (~ 30min+)
 
 ![Strona](images/page.jpg)
 

@@ -1,4 +1,4 @@
-# CSS &ndash; kaskadowe arkusze stylów
+# CSS &ndash; Kaskadowe arkusze stylów
 
 > Zadania rozwiązuj w plikach ```index.html``` oraz ```css/style.css```
 
