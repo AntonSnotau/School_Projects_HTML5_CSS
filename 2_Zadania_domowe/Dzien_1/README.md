@@ -16,7 +16,7 @@ W pliku __index.html__ znajduje się gotowy kod. Ostyluj go według podanych wyt
     * Light
 * Ustaw __wszystkim listom__ wysokość na ```500px``` i szerokość na ```300px``` i wyłącz stylowanie list,
 * Ustaw __wszystkim elementom__ wszystkich list wysokość na ```50px``` i szerokość na ```300px```,
-* Dla każdego tekstu w każdym elemencie listy ustaw wysokość linii na ```50px``` oraz wagę fontu na ```30px```. Dodatkowo wyśrodkuj ten tekst,
+* Dla każdego tekstu w każdym elemencie listy ustaw wysokość linii na ```50px``` oraz wagę fontu na ```300```. Dodatkowo wyśrodkuj ten tekst,
 * Pierwszej liście ustaw kolor tła ```#FF00A5``` a jej elementom kolor tła ```#36FF74```,
 * Drugiej liście ustaw kolor tła ```#E8370E``` a jej elementom kolor tła ```#365FFF```,
 * Trzeciej liście ustaw kolor tła ```#FFEC0C``` a jej elementom kolor tła ```#0DFFDE```,
