@@ -16,20 +16,14 @@ Przed przystąpieniem do rozwiązywania zadań przeczytaj poniższe wskazówki
 
 ## Plan tego repozytorium
 
-* __1_Zadania__
+* 1_Zadania
+    * Tutaj znajdziesz zadania do zajęć. Kilka na wstępie jest dla wykładowcy, aby pokazał Ci jak rozwiązywać kolejne. Rozwiązuj je na zajęciach. Mentor nie będzie ich sprawdzał, ale w razie wątpliwości przy egzaminie może na nie spojrzeć. Wrzucaj je systematycznie na githuba.
 
-    Tutaj znajdziesz zadania do zajęć. Kilka na wstępie jest dla wykładowcy, aby pokazał Ci jak rozwiązywać kolejne. Rozwiązuj je na zajęciach. Mentor nie będzie ich sprawdzał, ale w razie wątpliwości przy egzaminie może na nie spojrzeć. Wrzucaj je systematycznie na githuba.
-    Wykonuj wszystkie zadania ze zrozumieniem, każde jest stworzone w celu zrozumienia jakiejś istotnej kwestii. Jeśli nie rozumiesz - pytaj wykładowcę.
+* 2_Snippety
+    * Tutaj znajdziesz kawałki kodu rozwiązujące różne problemy, mogą Ci się przydać w trakcie rozwiązywania zadań.
 
-
-* __2_Zadania_domowe__
-
-    Te zadania wykonaj samodzielnie w domu. Będą one sprawdzane przez mentora. Pamiętaj, aby każde było rozwiązane zgodnie z poleceniem. Zadania dodatkowe są dla chętnych i ambitnych. Ty też jesteś, prawda? :). Zadania dodatkowe zrób w miarę możliwości, możesz je dosłać w każdej chwili. Zapytaj mentora do kiedy musisz oddać zadania podstawowe.
-
-
-* __3_Snippety__
-
-    Tutaj znajdziesz kawałki kodu rozwiązujące różne problemy, mogą Ci się przydać w trakcie rozwiązywania zadań.
+* 3_Zadania_domowe
+    * Te zadania wykonaj samodzielnie w domu. Będą one sprawdzane przez mentora. Pamiętaj, aby każde zadanie było w funkcji i zwracało wartości opisane w jego tresci. Zadania dodatkowe są dla chętnych i ambitnych. Ty też jesteś, prawda? :). Zadania dodatkowe zrób w miarę możliwości, możesz je dosłać w każdej chwili. Zapytaj mentora do kiedy musisz oddać zadania podstawowe.
 
 
 ### Poszczególne zadania rozwiązuj w odpowiednich plikach.
