@@ -16,7 +16,7 @@ Ustaw kolor tła (użyj atrybutu **background-color**) dla następujących eleme
 * **paragrafy** będące potomkami **diva** o **id** ```rodzic``` na pomarańczowy,
 * **paragrafy** będące bezpośrednimi potomkami (dziećmi) **diva** o **id** ```rodzic``` na zielony,
 * **paragrafy** znajdujące się bezpośrednio po **divie** o **id** ```other``` na brązowy,
-* **paragrafy** znajdujące się po **divie** o **id** ```inny``` na fioletowy.
+* **paragrafy** znajdujące się po **paragrafie** o **id** ```inny``` na fioletowy.
 
 -------------------------------------------------------------------------------
 
