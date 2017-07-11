@@ -1,3 +1,5 @@
+<img alt="Logo" src="http://coderslab.pl/svg/logo-coderslab.svg" width="400">
+
 # CSS &ndash; Kolory i jednostki
 
 > Zadania rozwiązuj w plikach ```index.html``` oraz ```css/style.css```
