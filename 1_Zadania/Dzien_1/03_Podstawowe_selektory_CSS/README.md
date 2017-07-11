@@ -1,3 +1,5 @@
+<img alt="Logo" src="http://coderslab.pl/svg/logo-coderslab.svg" width="400">
+
 # CSS &ndash; podstawowe selektory
 
 > Zadania rozwiązuj w serwisie **JSFiddle**. Gdy rozwiążesz zadanie, zapisz je w plikach ```index.html``` oraz ```css/style.css```. Poszczególne zadania oddzielaj od siebie komentarzami.
