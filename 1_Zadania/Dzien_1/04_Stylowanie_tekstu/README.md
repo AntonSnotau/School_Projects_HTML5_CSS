@@ -1,3 +1,5 @@
+<img alt="Logo" src="http://coderslab.pl/svg/logo-coderslab.svg" width="400">
+
 # CSS &ndash; Stylowanie tekstu
 
 > Zadania rozwiązuj w plikach ```index.html``` oraz ```css/style.css```. Zawsze sprawdzaj, czy czcionki dołączane do projektu działają!
