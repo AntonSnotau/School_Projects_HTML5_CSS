@@ -1,0 +1,18 @@
+div {
+  width: 500px;
+  height: 100px;
+  background: linear-gradient(135deg,
+    rgba(179,220,237,1) 0%,
+    rgba(41,184,229,1) 51%,
+    rgba(188,224,238,1) 100%);
+    text-align: center;
+}
+.div2 {
+  width: 50%;
+  height: 50%;
+  background: grey;
+  font-size: 1.5em;
+}
+html {
+  font-size: 30px;
+}
