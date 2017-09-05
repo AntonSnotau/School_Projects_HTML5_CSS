@@ -1,6 +1,6 @@
 div {
-  width: 500px;
-  height: 100px;
+  width: 300px;
+  height: 300px;
   background: linear-gradient(135deg,
     rgba(179,220,237,1) 0%,
     rgba(41,184,229,1) 51%,
@@ -16,3 +16,7 @@ div {
 html {
   font-size: 30px;
 }
+
+/*rem odnosi się do elementu html, em - do elementu-rodzica, px - jest wartością niezależną*/
+
+/* zadanie 2 - zmienił się rozmiar elementu div oraz jego dzieciaka - div2*/

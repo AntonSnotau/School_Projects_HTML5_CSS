@@ -1,0 +1,38 @@
+html {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+#all_lists {
+  height: 500px;
+  width: 300px;
+}
+ul, li {
+  height: 50px;
+  width: 300px;
+}
+li {
+  line-height: 50px;
+  font-weight: 300;
+  text-align: center;
+}
+.list1 {
+  background-color: #FF00A5;
+  font-weight: 400;
+}
+.el1 {
+  background-color: #36FF74;
+}
+.list2 {
+  background-color: #E8370E;
+  font-weight: 700;
+}
+.el2 {
+  background-color: #365FFF;
+}
+.list3 {
+  background-color: #FFEC0C;
+  font-weight: 300;
+}
+.el3 {
+  background-color: #0DFFDE;
+}
