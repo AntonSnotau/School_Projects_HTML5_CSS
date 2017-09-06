@@ -1,0 +1,84 @@
+.layer-1 {
+  width: 800px;
+  height: 800px;
+  background-color: #FF1106;
+  position: relative;
+}
+.layer-2 {
+  width: 600px;
+  height: 600px;
+  background-color: #FF5200;
+  position: absolute;
+  right: 100px;
+  bottom: 100px;
+}
+.layer-3 {
+  width: 400px;
+  height: 400px;
+  background-color: #FF8B05;
+  position: absolute;
+  right: 100px;
+  bottom: 100px;
+}
+.layer-4 {
+  width: 200px;
+  height: 200px;
+  background-color: #FFCC0D;
+  position: absolute;
+  right: 100px;
+  bottom: 100px;
+}
+.layer-2::after {
+  content: "";
+  width: 100px;
+  height: 100px;
+  background-color: #FF5200;
+  position: absolute;
+  left: -50px;
+  top: -50px;
+}
+.layer-2::before {
+  content: "";
+  width: 100px;
+  height: 100px;
+  background-color: #FF5200;
+  position: absolute;
+  right: -50px;
+  bottom: -50px;
+}
+.layer-3::after {
+  content: "";
+  width: 100px;
+  height: 100px;
+  background-color: #FF8B05;
+  position: absolute;
+  right: -50px;
+  top: -50px;
+}
+.layer-3::before {
+  content: "";
+  width: 100px;
+  height: 100px;
+  background-color: #FF8B05;
+  position: absolute;
+  left: -50px;
+  bottom: -50px;
+}
+.layer-4::after {
+  content: "";
+  width: 100px;
+  height: 100px;
+  background-color: #FFCC0D;
+  position: absolute;
+  left: -50px;
+  top: -50px;
+}
+.layer-4::before {
+  content: "";
+  width: 100px;
+  height: 100px;
+  background-color: #FFCC0D;
+  position: absolute;
+  right: -50px;
+  bottom: -50px;
+}
