@@ -1,0 +1,12 @@
+.container {
+  width: 400px;
+  border: 1px solid blue;
+}
+.one {
+  width: 350px;
+  border: 1px solid red;
+  padding-left: 20px;
+}
+/* box-sizing - ustawiamy rozmiar boxu przez content-box lub border-box
+margin - definiujemy odstępy od bordera na zewnątrz
+padding - definiujemy odstępy od tekstu do border */

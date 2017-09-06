@@ -1,0 +1,25 @@
+.first:hover {
+  background-color: blue;
+  border-radius: 50%;
+  box-shadow: 0 20px 0 20px red;
+}
+.first {
+  height: 300px;
+  width: 400px;
+  border: 2px solid black;
+}
+
+.first:active {
+  background-color: red;
+}
+a {
+  border: 1px solid blue;
+  border-radius: 25%;
+  background-color: yellow;
+}
+a:hover {
+  background-color: green;
+}
+a:active {
+  background-color: grey;
+}
