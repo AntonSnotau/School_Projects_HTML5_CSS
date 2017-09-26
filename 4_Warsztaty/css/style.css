@@ -1,0 +1,566 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: black;
+}
+header {
+  width: 920px;
+  height: 30px;
+  margin: auto;
+}
+.logo1 {
+  float: left;
+  text-transform: uppercase;
+  color: white;
+  padding-left: 20px;
+  line-height: 30px;
+  font-size: 14px;
+}
+.logo1 span {
+  color: #50dea1;
+}
+.nav1 {
+  float: right;
+  line-height: 30px;
+}
+.nav1 ul li {
+  float: left;
+  list-style: none;
+  font-size: 14px;
+  color: white;
+  padding-right: 35px;
+  text-transform: uppercase;
+}
+.top {
+  width: 1020px;
+  height: 600px;
+  margin: auto;
+  background: linear-gradient(to bottom, #f6f8f9 0%,#e5ebee 50%,#d7dee3 71%);
+}
+.img1 {
+  float: left;
+  width: 49%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.text1 {
+  float: left;
+  width: 35%;
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+.text1 h1 {
+  text-transform: uppercase;
+  font-size: 35px;
+  font-weight: 300;
+  padding-bottom: 25px;
+  line-height: 40px;
+  text-align: center;
+}
+.text1 h1 span {
+  color: #50dea1;
+}
+.text1 p {
+  text-align: center;
+  font-size: 14px;
+  padding-bottom: 25px;
+}
+.text1 button {
+  display: block;
+  height: 45px;
+  text-align: center;
+  margin: auto;
+  width: 250px;
+  border-radius: 8px;
+  text-transform: uppercase;
+  font-size: 20px;
+  background-color: #50dea1;
+  color: white;
+  border: none;
+}
+.goods {
+  width: 1020px;
+  height: 340px;
+  margin: auto;
+  background-color: white;
+}
+.clair {
+  width: 27%;
+  height: 220px;
+  background-image: url("../images/box1_img.jpg");
+  background-size: cover;
+  background-position: center;
+  float: left;
+  margin-left: 50px;
+  margin-top: 30px;
+  margin-right: 30px;
+  margin-bottom: 100px;
+  border-radius: 2px;
+}
+.clair p {
+  background-color: rgba(255, 255, 255, 0.5);
+  font-weight: bold;
+  padding: 18px;
+  margin-top: 140px;
+}
+.clair p::after {
+  content: "";
+  display: block;
+  background-color: #50dea1;
+  height: 5px;
+  width: 120px;
+}
+.margarita {
+  width: 27%;
+  height: 220px;
+  background-image: url("../images/box2_img.jpg");
+  background-size: cover;
+  background-position: center;
+  float: left;
+  margin-top: 30px;
+  margin-right: 30px;
+  margin-bottom: 100px;
+  border-radius: 2px;
+}
+.margarita p {
+  background-color: rgba(255, 255, 255, 0.5);
+  font-weight: bold;
+  padding: 18px;
+  margin-top: 140px;
+}
+.margarita p::after {
+  content: "";
+  display: block;
+  background-color: #50dea1;
+  height: 5px;
+  width: 120px;
+}
+.text2 {
+  width: 30%;
+  height: 260px;
+  float: left;
+  margin-top: 30px;
+  margin-bottom: 80px;
+  border-radius: 2px;
+  border: 1px solid grey;
+}
+.text2 h3 {
+  font-weight: bold;
+  padding: 18px;
+}
+.text2 h3::after {
+  content: "";
+  display: block;
+  background-color: #50dea1;
+  height: 5px;
+  width: 170px;
+}
+.text2 p {
+  font-size: 14px;
+  padding: 5px;
+  padding-left: 18px;
+  color: grey;
+}
+.prices {
+  width: 1020px;
+  height: 700px;
+  margin: auto;
+  background-color: beige;
+}
+.price {
+  text-transform: uppercase;
+  color: grey;
+  padding: 18px;
+  font-weight: 300;
+  margin-left: 35px;
+  margin-bottom: 40px;
+}
+.price::after {
+  content: "";
+  display: block;
+  background-color: #50dea1;
+  height: 5px;
+  width: 270px;
+}
+.bigcircle1 {
+  border: 1px solid grey;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  margin-left: 13.5%;
+  margin-top: -3vh;
+  background-color: white;
+}
+/*Jak zrobić to dobrze ze skalowaniem?*/
+.smallcircle1 {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  background-color: grey;
+  margin: auto;
+  margin-top: 10px;
+}
+.bigcircle2 {
+  border: 1px solid grey;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  margin-left: 41.5%;
+  margin-top: -3vh;
+  background-color: #50dea1;
+}
+.smallcircle2 {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  margin: auto;
+  margin-top: 10px;
+}
+.bigcircle3 {
+  border: 1px solid grey;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  margin-left: 69%;
+  margin-top: -3vh;
+  background-color: white;
+}
+.smallcircle3 {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  background-color: grey;
+  margin: auto;
+  margin-top: 10px;
+}
+.box1 {
+  width: 27%;
+  height: 500px;
+  background-color: white;
+  margin-left: 50px;
+  border: 1px solid grey;
+  float: left;
+}
+.box1 h1 {
+  text-transform: uppercase;
+  font-weight: 300;
+  padding: 22px;
+  padding-left: 70px;
+  margin: auto;
+  color: #50dea1;
+}
+.price1 {
+  border: 1px solid grey;
+  border-radius: 50%;
+  width: 45%;
+  height: 120px;
+  margin: auto;
+  text-transform: uppercase;
+  padding: 10px;
+  color: grey;
+  text-align: center;
+  margin-bottom: 32px;
+}
+.price1 span {
+  font-size: 40px;
+}
+.price1 sup {
+  font-size: 16px;
+}
+.box1 ul {
+  list-style: none;
+  text-align: center;
+  color: grey;
+  font-size: 20px;
+  line-height: 30px;
+}
+.box1 .li1 {
+  background-color: #e0e0d1;
+  padding-bottom: 10px;
+}
+.box1 .li2 {
+  background-color: #f5f5f0;
+}
+.box1 button {
+  margin: auto;
+  display: block;
+  height: 35px;
+  text-align: center;
+  width: 120px;
+  border-radius: 8px;
+  text-transform: uppercase;
+  font-size: 18px;
+  background-color: #50dea1;
+  color: white;
+  border: none;
+  margin-top: 150px;
+}
+.box2 {
+  width: 27%;
+  height: 500px;
+  background-color: #50dea1;
+  margin-left: 50px;
+  border: 1px solid grey;
+  float: left;
+}
+.box2 h1 {
+  text-transform: uppercase;
+  font-weight: 300;
+  padding: 22px;
+  padding-left: 40px;
+  margin: auto;
+  color: white;
+}
+.price2 {
+  border: 1px solid grey;
+  border-radius: 50%;
+  width: 45%;
+  height: 120px;
+  margin: auto;
+  text-transform: uppercase;
+  padding: 10px;
+  color: #50dea1;
+  text-align: center;
+  margin-bottom: 32px;
+  background-color: white;
+}
+.price2 span {
+  font-size: 40px;
+}
+.price2 sup {
+  font-size: 16px;
+}
+.box2 ul {
+  list-style: none;
+  text-align: center;
+  color: grey;
+  font-size: 20px;
+  line-height: 30px;
+}
+.box2 .li1 {
+  background-color: #f5f5f0;
+  padding-bottom: 10px;
+}
+.box2 .li2 {
+  background-color: #e0e0d1;
+}
+.box2 button {
+  margin: auto;
+  display: block;
+  height: 35px;
+  text-align: center;
+  width: 120px;
+  border-radius: 8px;
+  text-transform: uppercase;
+  font-size: 18px;
+  background-color: white;
+  color: #50dea1;
+  border: none;
+  margin-top: 110px;
+}
+.box3 {
+  width: 27%;
+  height: 500px;
+  background-color: white;
+  margin-left: 50px;
+  border: 1px solid grey;
+  float: left;
+}
+.box3 h1 {
+  text-transform: uppercase;
+  font-weight: 300;
+  padding: 22px;
+  padding-left: 50px;
+  margin: auto;
+  color: #50dea1;
+}
+.price3 {
+  border: 1px solid grey;
+  border-radius: 50%;
+  width: 45%;
+  height: 120px;
+  margin: auto;
+  text-transform: uppercase;
+  padding: 10px;
+  color: grey;
+  text-align: center;
+  margin-bottom: 32px;
+}
+.price3 span {
+  font-size: 40px;
+}
+.price3 sup {
+  font-size: 16px;
+}
+.box3 ul {
+  list-style: none;
+  text-align: center;
+  color: grey;
+  font-size: 20px;
+  line-height: 30px;
+}
+.box3 .li1 {
+  background-color: #e0e0d1;
+  padding-bottom: 10px;
+}
+.box3 .li2 {
+  background-color: #f5f5f0;
+}
+.box3 button {
+  margin: auto;
+  display: block;
+  height: 35px;
+  text-align: center;
+  width: 120px;
+  border-radius: 8px;
+  text-transform: uppercase;
+  font-size: 18px;
+  background-color: #50dea1;
+  color: white;
+  border: none;
+  margin-top: 80px;
+}
+.contact {
+  width: 1020px;
+  height: 400px;
+  margin: auto;
+  background-color: white;
+}
+.cont {
+  text-transform: uppercase;
+  color: grey;
+  padding: 18px;
+  font-weight: 300;
+  margin-left: 35px;
+  margin-bottom: 20px;
+}
+.cont::after {
+  content: "";
+  display: block;
+  background-color: #50dea1;
+  height: 5px;
+  width: 270px;
+}
+.leftbox {
+  float: left;
+  height: 100%;
+  width: 50%;
+}
+.leftbox .name {
+  width: 100%;
+  margin-left: 50px;
+  height: 70px;
+  font-size: 35px;
+  color: grey;
+  padding-left: 10px;
+  opacity: 0.5;
+  margin-bottom: 20px;
+  font-weight: lighter; /*nie działa*/
+  font-variant: small-caps;
+  border: 1px solid #50dea1;
+}
+.leftbox .email {
+  width: 100%;
+  margin-left: 50px;
+  height: 70px;
+  font-size: 35px;
+  color: grey;
+  padding-left: 10px;
+  border: 1px solid #50dea1;
+  opacity: 0.5;
+  margin-bottom: 20px;
+  font-weight: lighter; /*nie działa*/
+  font-variant: small-caps;
+}
+.leftbox .message {
+  width: 100%;
+  margin-left: 50px;
+  font-size: 35px;
+  color: grey;
+  padding-left: 10px;
+  border-color: #50dea1;
+  opacity: 0.5;
+  margin-bottom: 20px;
+  font-weight: lighter; /*nie działa*/
+  font-variant: small-caps;
+  padding-top: 10px;
+}
+.rightbox {
+  float: left;
+  height: 100%;
+  width: 50%;
+}
+.rightbox img {
+  margin-left: 120px;
+}
+.rightbox label {
+  font-size: 20px;
+  color: grey;
+  float: none;
+  margin-left: 100px;
+  display: block;
+  margin-top: 20px;
+}
+.rightbox input {
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin-right: 15px;
+  border: 1px solid #50dea1;
+}
+.rightbox input:checked {
+  background-image: url(../images/form_ok.jpg);
+  color: #50dea1;
+}
+/*Jak ustawić ptaszek do checkboxa? Czy w chrome są ograniczenia na stylowanie checkboxa?*/
+.rightbox button {
+  display: block;
+  height: 55px;
+  text-align: center;
+  margin-left: 100px;
+  width: 350px;
+  border-radius: 8px;
+  text-transform: uppercase;
+  font-size: 30px;
+  background-color: #50dea1;
+  color: white;
+  border: none;
+  margin-top: 20px;
+  font-weight: bold;
+}
+footer {
+  width: 1020px;
+  height: 200px;
+  margin: auto;
+  background-color: white;
+}
+footer .copy {
+  float: left;
+  color: grey;
+  line-height: 100px;
+  margin-left: 50px;
+}
+footer .img {
+  float: right;
+  padding-top: 30px;
+  margin-right: 70px;
+}
+footer .logo {
+  float: right;
+  text-transform: uppercase;
+  color: grey;
+  line-height: 100px;
+  margin-right: 60px;
+  font-size: 20px;
+}
+footer .logo span {
+  font-weight: bold;
+}

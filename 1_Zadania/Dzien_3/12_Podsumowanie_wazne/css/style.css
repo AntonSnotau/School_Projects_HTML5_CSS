@@ -1,0 +1,104 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+header {
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+nav {
+  height: 50px;
+  width: 800px;
+  margin: auto;
+}
+.logo1 a {
+  color: white;
+  float: left;
+  height: 10px;
+  margin: 10px 10px;
+  font-size: 23px;
+  text-decoration: none;
+  /*podkreślenie */
+}
+ul {
+  list-style: none;
+  text-transform: uppercase;
+  float: right;
+}
+li {
+  float: left;
+  margin: 10px 10px;
+}
+ul::after {
+  content: "";
+  display: block;
+  min-height: 1px;
+  clear: both;
+}
+.main {
+  margin: auto;
+  width: 800px;
+  padding: 10px;
+}
+.img {
+  width: 49%;
+  height: 300px;
+  float: left;
+  background-color: black;
+  margin-right: 5px;
+  border-radius: 5%;
+}
+.text {
+  width: 49%;
+  float: left;
+  margin-left: 10px;
+}
+.main::after {
+  content: "";
+  display: block;
+  min-height: 20px;
+  clear: both;
+}
+.down {
+  width: 100%;
+  height: 240px;
+  background-color: black;
+  padding-top: 10px;
+}
+.pierdola {
+  margin: auto;
+  width: 800px;
+  height: 240px;
+}
+.a1 {
+  width: 33%;
+  height: 200px;
+  border: 5px solid black;
+  float: left;
+  background-color: white;
+}
+.down::after {
+  content: "";
+  display: block;
+  min-height: 1px;
+  clear: both;
+}
+footer {
+  margin: auto;
+  width: 800px;
+  height: 100px;
+  padding-top: 10px;
+}
+.copy {
+  float: left;
+}
+.logo2 a {
+  text-decoration: none;
+  float: right;
+  color: black;
+}

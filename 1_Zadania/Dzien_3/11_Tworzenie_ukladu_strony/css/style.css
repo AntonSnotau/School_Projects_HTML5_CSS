@@ -1,0 +1,62 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/* resetowanie domyślnie stylów przeglądarki, robi się zawsze*/
+
+/*centrowanie za pomoca position: absolute*/
+/*ul {
+  position: absolute;
+  width: 600px;
+  height: 500px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}*/
+.img {
+  background-image: url("../images/night-sky.jpg");
+  width: 100%;
+  height: 30px;
+  color: white;
+  padding-left: 150px;
+  font-size: 25px;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+body {
+  font-family: "Arial";
+}
+main {
+  margin-left: 140px;
+  width: 60%;
+  margin-bottom: 5px;
+}
+.planet1 {
+  background: linear-gradient(to bottom, #b3dced 0%,#bce0ee 100%);
+  margin-bottom: 5px;
+}
+.col {
+  float: left;
+  width: 33.33%;
+}
+.planet1::after{
+  content: "";
+  display: block;
+  min-height: 1px;
+  clear: both;
+}
+.planet2 {
+  background-color: blue;
+  color: white;
+}
+.col2 {
+  padding-left: 110px;
+}
+footer {
+  background-color: darkblue;
+  padding-left: 140px;
+  color: white;
+}
