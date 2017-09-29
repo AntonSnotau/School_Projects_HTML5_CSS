@@ -6,9 +6,10 @@
 body {
   font-family: 'Open Sans', sans-serif;
   background-color: black;
+  max-width: 1200px;
 }
 header {
-  width: 920px;
+  max-width: 920px;
   height: 30px;
   margin: auto;
 }
@@ -35,22 +36,79 @@ header {
   padding-right: 35px;
   text-transform: uppercase;
 }
-.top {
+.nav1 div ul li {
+  background-color: black;
+  float: none;
+  padding-left: 10px;
+  width: 50%;
+}
+.section-top {
   width: 1020px;
   height: 600px;
   margin: auto;
   background: linear-gradient(to bottom, #f6f8f9 0%,#e5ebee 50%,#d7dee3 71%);
 }
-.img1 {
+.arrow-left {
+  height: 15px;
+  width: 15px;
   float: left;
-  width: 49%;
+  border: 40px solid transparent;
+  border-top-color: #50dea1;
+  margin-top: 220px;
+  transform: rotate(90deg) translate(0px, 25px);
+  margin-left: 0;
+}
+.arrow-left:before{
+  content:'';
+  width: 0px;
+  height: 0px;
+  border: 30px solid transparent;
+  border-top-color: #e5ebee;
+  display: inline-block;
+  transform: translate(-30px, -50px);
+}
+.arrow-right {
+  height: 15px;
+  width: 15px;
+  float: right;
+  border: 40px solid transparent;
+  border-top-color: #50dea1;
+  margin-top: 120px;
+  transform: rotate(270deg) translate(0px, 25px);
+  margin-left: 0;
+}
+.arrow-right:before{
+  content:'';
+  width: 0px;
+  height: 0px;
+  border: 30px solid transparent;
+  border-top-color: #e5ebee;
+  display: inline-block;
+  transform: translate(-30px, -50px);
+}
+.slider {
+  list-style: none;
+}
+.slider1 {
+  float: left;
+  width: 45%;
   padding-top: 100px;
   padding-bottom: 100px;
+}
+.slider2 {
+  width: 60%;
+  margin: auto;
+  background-size: contain;
+}
+.slider3 {
+  width: 60%;
+  margin: auto;
+  background-size: contain;
 }
 .text1 {
   float: left;
   width: 35%;
-  padding-top: 150px;
+  padding-top: 80px;
   padding-bottom: 100px;
 }
 .text1 h1 {
@@ -83,61 +141,42 @@ header {
   border: none;
 }
 .goods {
-  width: 1020px;
+  max-width: 1020px;
   height: 340px;
   margin: auto;
   background-color: white;
 }
-.clair {
+.clair, .margarita {
   width: 27%;
   height: 220px;
-  background-image: url("../images/box1_img.jpg");
+
   background-size: cover;
   background-position: center;
   float: left;
-  margin-left: 50px;
   margin-top: 30px;
   margin-right: 30px;
   margin-bottom: 100px;
   border-radius: 2px;
 }
-.clair p {
+.clair p, .margarita p {
   background-color: rgba(255, 255, 255, 0.5);
   font-weight: bold;
   padding: 18px;
   margin-top: 140px;
 }
-.clair p::after {
+.clair p::after, .margarita p::after {
   content: "";
   display: block;
   background-color: #50dea1;
   height: 5px;
-  width: 120px;
+  width: 80%;
+}
+.clair {
+  background-image: url("../images/box1_img.jpg");
+  margin-left: 50px;
 }
 .margarita {
-  width: 27%;
-  height: 220px;
   background-image: url("../images/box2_img.jpg");
-  background-size: cover;
-  background-position: center;
-  float: left;
-  margin-top: 30px;
-  margin-right: 30px;
-  margin-bottom: 100px;
-  border-radius: 2px;
-}
-.margarita p {
-  background-color: rgba(255, 255, 255, 0.5);
-  font-weight: bold;
-  padding: 18px;
-  margin-top: 140px;
-}
-.margarita p::after {
-  content: "";
-  display: block;
-  background-color: #50dea1;
-  height: 5px;
-  width: 120px;
 }
 .text2 {
   width: 30%;
@@ -157,7 +196,7 @@ header {
   display: block;
   background-color: #50dea1;
   height: 5px;
-  width: 170px;
+  width: 70%;
 }
 .text2 p {
   font-size: 14px;
@@ -166,7 +205,7 @@ header {
   color: grey;
 }
 .prices {
-  width: 1020px;
+  max-width: 1020px;
   height: 700px;
   margin: auto;
   background-color: beige;
@@ -196,7 +235,6 @@ header {
   margin-top: -3vh;
   background-color: white;
 }
-/*Jak zrobić to dobrze ze skalowaniem?*/
 .smallcircle1 {
   border-radius: 50%;
   width: 25px;
@@ -249,7 +287,19 @@ header {
   border: 1px solid grey;
   float: left;
 }
-.box1 h1 {
+/*.box1::before{
+  content:'';
+  border: 1px solid grey;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  margin-left: 9.5%;
+  margin-top: -25px;
+  background-color: white;
+}*/
+/*właśnie tak probuję to rozwiązać, małe kółko przez ::after, tylko znowu ten sam problem z position absolute. Position relative w ogóle robi z koła jakiś szlak.*/
+.box1 h2 {
   text-transform: uppercase;
   font-weight: 300;
   padding: 22px;
@@ -271,6 +321,7 @@ header {
 }
 .price1 span {
   font-size: 40px;
+  display: block;
 }
 .price1 sup {
   font-size: 16px;
@@ -282,11 +333,11 @@ header {
   font-size: 20px;
   line-height: 30px;
 }
-.box1 .li1 {
+.box1 .position1 {
   background-color: #e0e0d1;
   padding-bottom: 10px;
 }
-.box1 .li2 {
+.box1 .position2 {
   background-color: #f5f5f0;
 }
 .box1 button {
@@ -311,7 +362,7 @@ header {
   border: 1px solid grey;
   float: left;
 }
-.box2 h1 {
+.box2 h2 {
   text-transform: uppercase;
   font-weight: 300;
   padding: 22px;
@@ -334,6 +385,7 @@ header {
 }
 .price2 span {
   font-size: 40px;
+  display: block;
 }
 .price2 sup {
   font-size: 16px;
@@ -345,11 +397,11 @@ header {
   font-size: 20px;
   line-height: 30px;
 }
-.box2 .li1 {
+.box2 .position1 {
   background-color: #f5f5f0;
   padding-bottom: 10px;
 }
-.box2 .li2 {
+.box2 .position2 {
   background-color: #e0e0d1;
 }
 .box2 button {
@@ -374,7 +426,7 @@ header {
   border: 1px solid grey;
   float: left;
 }
-.box3 h1 {
+.box3 h2 {
   text-transform: uppercase;
   font-weight: 300;
   padding: 22px;
@@ -396,6 +448,7 @@ header {
 }
 .price3 span {
   font-size: 40px;
+  display: block;
 }
 .price3 sup {
   font-size: 16px;
@@ -407,11 +460,11 @@ header {
   font-size: 20px;
   line-height: 30px;
 }
-.box3 .li1 {
+.box3 .position1 {
   background-color: #e0e0d1;
   padding-bottom: 10px;
 }
-.box3 .li2 {
+.box3 .position2 {
   background-color: #f5f5f0;
 }
 .box3 button {
@@ -537,7 +590,7 @@ header {
   font-weight: bold;
 }
 footer {
-  width: 1020px;
+  max-width: 1020px;
   height: 200px;
   margin: auto;
   background-color: white;
@@ -549,9 +602,13 @@ footer .copy {
   margin-left: 50px;
 }
 footer .img {
+  list-style: none;
   float: right;
   padding-top: 30px;
   margin-right: 70px;
+}
+footer .img li {
+  float: left;
 }
 footer .logo {
   float: right;
